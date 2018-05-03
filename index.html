@@ -9,15 +9,15 @@
         </div>
         <form id="form">
             <div style="display:flex; align-items:center; margin-top:14; margin-bottom:3px">
-                <div style="width:60px">Operand 1:</div>
-                <input type="text" name="operand1" id="operand1">
-            </div>
-            <div style="display:flex; align-items:center; margin-bottom:6px">
-                <div style="width:60px">Operand 2:</div>
-                <input type="text" name="operand1" id="operand2">
+                <div style="width:60px; text-align:right; margin-right:10px">Operand 1:</div>
+                <input type="text" name="operand1" id="operand1" style="width:140px">
             </div>
             <div style="display:flex; align-items:center; margin-bottom:4px">
-                <div style="width:60px">Operator:</div>
+                <div style="width:60px; text-align:right; margin-right:10px">Operand 2:</div>
+                <input type="text" name="operand1" id="operand2" style="width:140px">
+            </div>
+            <div style="display:flex; align-items:center; margin-bottom:4px">
+                <div style="width:60px; text-align:right; margin-right:10px">Operator:</div>
                 <div>
                     <input type="radio" id="add" name="operation" value="add" checked="checked" id="operation">
                     <label for="add">ADD</label>
@@ -27,12 +27,12 @@
                     <label for="and">AND</label>
                 </div>
             </div>
-            <div style="margin-bottom:10px">
-                <label for="animDelay">Animation Delay: </label>
+            <div style="display:flex; align-items:center; margin-bottom:10px">
+                <div for="animDelay" style="width:60px; text-align:right; margin-right:10px">Animation: </div>
                 <input type="checkBox" name="animDelay" value="animDelay" checked="checked" id="animDelay">
 
             </div>
-            <input type="submit" name="Submit" id="submit" value="Run simulation">
+            <input type="submit" name="Submit" id="submit" value="Run simulation" style="width:50%">
             <div style="margin-top:24px; margin-bottom:4px">
                 Result
             </div>
