@@ -7,26 +7,29 @@
             <div style="font-size:10px; font-weight:300; color: rgb(128,128,128); margin-top:6px">Sample operand: '00101011'</div>
         </div>
         <form id="form">
-            <div style="display:inline-block;margin-top:14;margin-bottom:3px">
-                Operand 1:
+            <div style="display:flex; align-items:center; margin-top:14; margin-bottom:3px">
+                <div style="width:60px">Operand 1:</div>
                 <input type="text" name="operand1" id="operand1">
             </div>
-            <div style="display:inline-block;margin-bottom:12px">
-                Operand 2:
+            <div style="display:flex; align-items:center; margin-bottom:6px">
+                <div style="width:60px">Operand 2:</div>
                 <input type="text" name="operand1" id="operand2">
             </div>
-            <br/>
-            <div style="margin-bottom:4px">
-                <input type="radio" id="add" name="operation" value="add" checked="checked" id="operation">
-                <label for="add">Add</label>
-                <input type="radio" id="xor" name="operation" value="xor">
-                <label for="xor">XOR</label>
-                <input type="radio" id="and" name="operation" value="and">
-                <label for="and">And</label>
+            <div style="display:flex; align-items:center; margin-bottom:4px">
+                <div style="width:60px">Operator:</div>
+                <div>
+                    <input type="radio" id="add" name="operation" value="add" checked="checked" id="operation">
+                    <label for="add">Add</label>
+                    <input type="radio" id="xor" name="operation" value="xor">
+                    <label for="xor">XOR</label>
+                    <input type="radio" id="and" name="operation" value="and">
+                    <label for="and">And</label>
+                </div>
             </div>
-            <div style="margin-bottom:12px">
+            <div style="margin-bottom:10px">
+                <label for="animDelay">Animation Delay: </label>
                 <input type="checkBox" name="animDelay" value="animDelay" checked="checked" id="animDelay">
-                <label for="animDelay">Animation Delay</label>
+
             </div>
             <input type="submit" name="Submit" id="submit">
             <div style="margin-top:24px; margin-bottom:4px">
